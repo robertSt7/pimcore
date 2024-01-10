@@ -38,7 +38,7 @@ jobs:
         strategy:
             matrix:
                 include:
-                    - { php-version: "8.2", dependencies: "highest", experimental: true, symfony: "6.x.x-dev", composer-options: "" }
+                    - { php-version: "8.2", dependencies: "highest", experimental: true, symfony: "@dev", composer-options: "" }
 
         steps:
             - name: "Checkout code"
